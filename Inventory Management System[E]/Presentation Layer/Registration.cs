@@ -101,7 +101,7 @@ namespace Sales_and_Inventory_Management_System.Presentation_Layer
                     if (result > 0)
                     {
                         MessageBox.Show("User added successfully");
-                        //ClearFields(this, null);
+                        
                         nameTextBox.Text = userNameTextBox.Text = passwordTextBox.Text = confirmPasswordTextBox.Text = emailTextBox.Text = dateOfBirthDateTimePicker.Text = comboBox1.Text = string.Empty;
                         radioButton1.Checked = radioButton2.Checked = checkBox1.Checked = false;
 
